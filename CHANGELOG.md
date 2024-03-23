@@ -1,4 +1,18 @@
-# CHANGELOG v.1.0
+# Change Log v. 1.1
 
 
-Criação de um Jogo da Velha em Js
+## 💡 Features Added
+
+- Projeto criado com sucesso
+- Adicionado um placar
+- Adicionada responsividade para mobile
+  
+
+## 🕷️ Bugs Reported
+
+- 
+
+
+## 🔧 Issues Fixeds
+
+-
