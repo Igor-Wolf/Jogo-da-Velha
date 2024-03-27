@@ -1,9 +1,14 @@
 body{
 
     text-align: center;
+    background-color: #2b2b2b;
 
 }
 
+h1{
+
+    color: white;
+}
 .quadrado{
 
     text-align: center;
@@ -22,34 +27,68 @@ body{
 
     font-size: 30px;
     margin-top: 10px;
+    color: white;
     
 }
 
-button{
-
-    margin-top: 10px;
-    width: 100px;
-    height: 30px;
-    background: #eee ;
+button {
+    background-color: #3498db;
+    /* Cor de fundo do botão */
+    color: #fff;
+    /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
     cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 70px;
+    width: 200px;
+    font-size: 1.7rem;
+}
 
+button:hover {
+    background-color: #2980b9;
+    /* Cor de fundo do botão ao passar o mouse */
 }
  /*Alternando tamanho para obrer resposividade*/ 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 
-    
+    h1{
+        font-size: 5rem;
+    }
 
-    .quadrado{
+    button{
+
+        font-size: 5rem;
+        height: 150px;
+        width: 500px;
+        margin-top: 20px;
+    }
+
+     .quadrado{
 
         padding: 10px;
-        height: 50px;
-        font-size: 45px;
+        width: 25vw;
+        height: 25vw;
+        font-size: 5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .externa{
+
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .jogador, .vencedor, .placar{
 
-        font-size: 25px;
+        font-size: 5rem;
         margin-top: 8px;
 
     }

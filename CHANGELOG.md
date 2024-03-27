@@ -1,4 +1,4 @@
-# Change Log v. 1.1
+# Change Log v. 1.2
 
 
 ## 💡 Features Added
